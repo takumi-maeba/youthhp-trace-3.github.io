@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+color:#B4532A;
+color:#FFFBE5;
+*/
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+  background-color:#FFD700;
+  height: 80px;
+}
+
+.header-left{
+  float:left;
+  margin:-15px 0 0 50px;
+}
+
+.header-left h1{
+  font-size: 40px;
+}
+
+.header-right{
+  float:right;
+  margin-right: 130px;
+}
+
+.header-right li{
+  float:left;
+  margin:10px 70px;
+  list-style: none;
+}
+
+.header-right a{
+  color: #fff;
+  font-size: 20px;
+}
+
+.top-wrapper{
+  background-image: url(image/quest1.png);
+  background-size: cover;
+  height: 550px;
+}
+
+.top-quest{
+  float:left;
+  background-color: #B4532A;
+  padding: 0 60px;
+  margin: 400px 0 0 140px;
+}
+
+.top-quest h2{
+  font-size: 30px;
+  color: #fff;
+}
+
+.about-quest{
+  background-color: #FFFBE5;
+  margin: 70px 100px;
+}
+
+.what-quest{
+  padding: 10px 150px;
+}
+
+.what-quest-title{
+  text-align: center;
+}
+
+.what-quest-title h2{
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.what-quest-text{
+  margin: 0 50px;
+}
+
+.what-quest-text p{
+  font-size: 20px;
+}
+
+.quest-condition{
+  padding: 10px 120px;
+}
+
+.quest-condition-title{
+  text-align: center;
+}
+
+.quest-condition-title h2{
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.quest-condition-list{
+  margin: 0 40px;
+}
+
+.quest-condition-list li{
+  list-style: none;
+  font-size: 20px;
+}
